@@ -114,10 +114,23 @@
     }
   }
 
-  @media (max-width: 1324px) {
-    // &__lead-title > h1 {
-    //   font-size: 2.5rem;
-    // }
+  @media (max-width: 920px) {
+    &__lead-title > h1 {
+      font-size: 2.5rem;
+    }
+
+    &__secondary-title > h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 750px) {
+    &__lead-title > h1 {
+      font-size: 2rem;
+    }
+    &__lead-title-info {
+      margin-left: 3rem;
+    }
   }
 
   &__lead-date-tags {
