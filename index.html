@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="icon" href="/images/favicon.ico" />
+
+    <title>Smashing Magazine Clone</title>
+  </head>
+  <body>
+    <header class="headerOne">
+      <div class="headerOne__logo">
+        <img src="images/logo.svg" alt="smashing magazine logo" />
+      </div>
+      <nav class="headerOne__navigation-links">
+        <ul class="headerOne__ul">
+          <li>Articles</li>
+          <li>Guides</li>
+          <li>Books</li>
+          <li>Workshops</li>
+          <li>Membership</li>
+          <li>
+            More <span><img src="images/menu-cat.svg" alt="menu cat" /></span>
+          </li>
+        </ul>
+      </nav>
+      <div class="headerOne__search-bar">
+        <div></div>
+        <input type="text" placeholder="Search articles..." />
+      </div>
+    </header>
+    <header class="headerTwo">
+      <nav>
+        <ul class="headerTwo__ul">
+          <li>Accessibility</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Vue</li>
+          <li>Guides</li>
+          <li>UX</li>
+          <li>Design</li>
+          <li>WebDesign</li>
+          <li>Figma</li>
+          <li>Wallpapers</li>
+          <li>Business</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-content">
+        <div class="main-content__articles">
+          <article class="main-content__lead-article">
+            <div class="main-content__lead-title-container">
+              <div class="photo-wrapper">
+                <div class="main-content__lead-photo">
+                  <img
+                    src="/images/brien200px.jpg"
+                    alt="author photo - Frederick O'Brien"
+                  />
+                  <!-- <div class="shadow"></div> -->
+                </div>
+              </div>
+              <div class="main-content__lead-title-info">
+                <div class="main-content__lead-author">
+                  <p>
+                    <span class="author-text">Frederick O'Brien</span> wrote
+                  </p>
+                </div>
+                <div class="main-content__lead-title">
+                  <h1>Web design done well: making use of audio</h1>
+                </div>
+                <div class="main-content__lead-date-tags">
+                  JUN 11, 2021 in <span class="underline">Design</span>,
+                  <span class="underline">User Experience</span>,
+                  <span class="underline">Accessibility</span>
+                </div>
+              </div>
+            </div>
+            <div class="main-content__description">
+              <p>
+                Design often revolves around visuals, but the other senses
+                deserve love too. In this article, we tune in to audio features
+                that are making sites sing.
+              </p>
+            </div>
+            <div class="main-content__continue-reading">
+              <p class="underline">Continue Reading <span>↬</span></p>
+            </div>
+          </article>
+          <article class="main-content__secondary-article">
+            <div class="main-content__secondary-title-container">
+              <div class="wrapper">
+                <div class="main-content__secondary-photo">
+                  <img
+                    class="grayscale"
+                    src="images/cosima-mielke-200px.png"
+                    alt="article author - Cosima Milke"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="main-content__secondary-title-info">
+              <div class="main-content__secondary-author-date">
+                <p>
+                  <span class="author-text">Cosima Mielke</span> / JUN 10, 2021
+                  in <span class="underline">Guides</span>,
+                  <span class="underline">Tools</span>,
+                  <span class="underline">Workflow</span>
+                </p>
+              </div>
+              <div class="main-content__secondary-title">
+                <h2>Useful front-end boilderplates and start kits</h2>
+              </div>
+            </div>
+          </article>
+          <article class="main-content__secondary-article">
+            <div class="main-content__secondary-title-container">
+              <div class="wrapper">
+                <div class="main-content__secondary-photo">
+                  <img
+                    class="grayscale"
+                    src="images/stefan-judis-200x200.jpg"
+                    alt="article author - Stefan Judis"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="main-content__secondary-title-info">
+              <div class="main-content__secondary-author-date">
+                <p>
+                  <span class="author-text">Stefan Judis</span> / JUN 10, 2021
+                  in <span class="underline">Tools</span>,
+                  <span class="underline">Performance</span>,
+                  <span class="underline">Browsers</span>
+                </p>
+              </div>
+              <div class="main-content__secondary-title">
+                <h2>Three front-end auditing tools i discovered recently</h2>
+              </div>
+            </div>
+          </article>
+        </div>
+        <aside class="main-content__newsletter">
+          <div class="main-content__newsletter-body">
+            <img
+              class="grayscale"
+              src="/images/cat-in-the-chair.svg"
+              alt="cat in the chair"
+            />
+            <div class="newsletter-content">
+              <button class="email-newsletter">Email Newsletter</button>
+              <h3>Useful front-end & UX tips, delivered once a week.</h3>
+              <p>
+                With tools to help you get your work done better. Subscribe and
+                get Vitaly’s
+                <span class="underline"
+                  >Smart Interface Design Checklists PDF</span
+                >
+                — in your inbox. 🎁
+              </p>
+              <form>
+                <input type="text" placeholder="Your email" />
+                <button>Meow!</button>
+              </form>
+              <p class="trusted">
+                On <span>front-end & UX</span>. Trusted by 190.000 folks.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </section>
+      <section class="explore-guides">
+        <div class="guide">
+          <p class="smashing-guide">A smashing guide to</p>
+          <h2>Accessible front-end components</h2>
+          <p>
+            Reliable accessible UI components: :focus styles, content sliders,
+            dark mode, date pickers, navigation, modals, radio buttons, “skip”
+            links, SVGs, tabs, tables, toggles and tooltips.
+          </p>
+          <button>Explore Accessible Components</button>
+        </div>
+        <div class="guide">
+          <p class="smashing-guide">A smashing guide to</p>
+          <h2>CSS Generators & Tools</h2>
+          <p>
+            Useful CSS tools for animations, border-radius, CSS shadows,
+            cubic-bezier curves, easing gradients, filters, placeholders, CSS
+            Grid, overlays, color shades, type scales and interactive CSS
+            doodles.
+          </p>
+          <button>Explore CSS Tools</button>
+        </div>
+        <div class="guide">
+          <p class="smashing-guide">A smashing guide to</p>
+          <h2>Front-end performance 2021</h2>
+          <p>
+            Core Web Vitals, CrUX, Lighthouse, performance budgets, CSS &
+            JavaScript performance, assets optimizations, build optimizations,
+            delivery optimizations, HTTP2, HTTP3 and a free PDF checklist.
+          </p>
+          <button>Explore Web Performance</button>
+        </div>
+        <div class="see-all-guides">
+          <p>See all guides →</p>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <p class="browse-topics">BROWSE ALL SMASHING MAGAZINE TOPICS</p>
+          <div class="topics">
+            <ul class="all-topics">
+              <li>Accessibility</li>
+              <li>Android</li>
+              <li>Animation</li>
+              <li>Apps</li>
+              <li>CSS</li>
+              <li>Design</li>
+              <li>Design Patterns</li>
+              <li>Design Systems</li>
+              <li>E-Commerce</li>
+              <li>Freebies</li>
+              <li>Graphics</li>
+              <li>HTML</li>
+              <li>Illustrator</li>
+              <li>Inspiration</li>
+              <li>iOS</li>
+              <li>JavaScript</li>
+              <li>Mobile</li>
+              <li>Pattern Libraries</li>
+              <li>Performance</li>
+              <li>Photoshop</li>
+              <li>Plugins</li>
+              <li>React</li>
+              <li>Responsive Design</li>
+              <li>Service Workers</li>
+              <li>Sketch</li>
+              <li>Typography</li>
+              <li>UI</li>
+              <li>Usability</li>
+              <li>User Experience</li>
+              <li>Wallpapers</li>
+              <li>Web Design</li>
+              <li>WordPress</li>
+              <li>Workflow</li>
+            </ul>
+          </div>
+          <p class="founded">
+            <span class="italic"
+              >With a commitment to quality content for the design
+              community.</span
+            >
+            Founded by Vitaly Friedman and Sven Lennartz. 2006–2021. Smashing is
+            proudly running on <span class="line">Netlify</span>. Fonts by
+            <span class="line">Latinotype</span>.
+          </p>
+          <div class="contact">
+            <img
+              class="grayscale"
+              src="/images/laptop__left.svg"
+              alt="bird in cage"
+            />
+            <div class="about">
+              <ul>
+                <li>✎ Write for us</li>
+                <li>Contact us</li>
+                <li>About us (Impressum)</li>
+                <li>Privacy policy</li>
+                <li>Membership login</li>
+                <li>Delivery times</li>
+                <li>Advertise</li>
+              </ul>
+            </div>
+            <img
+              class="grayscale"
+              src="images/cat-the-behemoth.svg"
+              alt="ca the behemoth"
+            />
+          </div>
+        </div>
+      </footer>
+    </main>
+    <footer></footer>
+  </body>
+</html>

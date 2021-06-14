@@ -1,0 +1,11 @@
+@import "config";
+@import "resets";
+@import "headerOne";
+@import "headerTwo";
+@import "mainContent";
+@import "exploreGuides";
+@import "footer";
+
+.grayscale {
+  filter: grayscale(100%);
+}

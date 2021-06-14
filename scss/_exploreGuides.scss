@@ -1,0 +1,84 @@
+.explore-guides {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-gap: 2rem;
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+  padding: 0 5rem;
+  overflow: none;
+
+  .guide {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: left;
+    background-color: lighten($main-color, 55%);
+    border-radius: 15px;
+    box-shadow: 0 1px 7px -5px rgba(50, 50, 93, 0.25),
+      0 3px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.03);
+
+    .smashing-guide {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      letter-spacing: 0.2rem;
+    }
+
+    h2 {
+      color: $main-color;
+      // flex: 2rem;
+      text-decoration: underline;
+      padding: 1rem 0;
+      font-family: "Varela Round", sans-serif;
+      text-transform: capitalize;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    p {
+      line-height: 1.5em;
+      font-size: 1.2em;
+      margin: 1rem 0;
+    }
+
+    button {
+      background-color: $main-color;
+      padding: 1rem;
+      color: white;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+      border-radius: 15px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      border: none;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .see-all-guides {
+    border-bottom: $main-color 5px solid;
+    padding-bottom: 0.5rem;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    // top: 33rem;
+    bottom: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .see-all-guides {
+    bottom: -20%;
+  }
+}
