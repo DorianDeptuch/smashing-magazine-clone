@@ -112,3 +112,31 @@ footer {
     }
   }
 }
+
+@media (max-width: 900px) {
+  .all-topics > li {
+    font-size: 1rem;
+  }
+
+  .contact > img {
+    display: none;
+  }
+
+  .founded {
+    width: 100%;
+  }
+  .contact {
+    padding: 3rem;
+  }
+
+  .about,
+  .about > ul {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 3rem;
+  }
+}

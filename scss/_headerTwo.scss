@@ -40,3 +40,51 @@
     border: 1px solid lighten($main-color, 10%);
   }
 }
+
+@media (max-width: 1240px) {
+  .headerTwo__ul > li:nth-last-child(1) {
+    display: none;
+  }
+}
+
+@media (max-width: 1130px) {
+  .headerTwo__ul > li:nth-last-child(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 1010px) {
+  .headerTwo__ul > li:nth-last-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 920px) {
+  .headerTwo__ul > li:nth-last-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 790px) {
+  .headerTwo__ul > li:nth-last-child(5) {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .headerTwo__ul > li:nth-last-child(6) {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  .headerTwo__ul > li:nth-last-child(7) {
+    display: none;
+  }
+}
+
+@media (max-width: 535px) {
+  .headerTwo__ul > li:nth-last-child(8) {
+    display: none;
+  }
+}

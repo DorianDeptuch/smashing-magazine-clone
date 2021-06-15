@@ -79,10 +79,15 @@
 
 @media (max-width: 950px) {
   .explore-guides > .see-all-guides {
-    bottom: -20%;
+    bottom: -15%;
   }
 
   .explore-guides > .guide > button {
     font-size: 1rem;
+  }
+
+  .explore-guides {
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 100%));
   }
 }
